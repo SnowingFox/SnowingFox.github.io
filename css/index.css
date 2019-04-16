@@ -76,6 +76,7 @@
 		background: url("img/pe-bg.jpg") no-repeat;
 		background-position:50% 20%;
 		background-size: auto;
+		filter:blur(1.5px);
 	}
 	.container{
 		top:50px;
