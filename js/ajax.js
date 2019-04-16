@@ -27,8 +27,8 @@ $(document).ready(function(){
 			success:function(result){
 				
 				if(result == "success"){
-					$(alertInfo[0]).show(300);
-					$(alertInfo[0]).text("登陆成功!");
+					$(alertInfo[1]).show(300);
+					$(alertInfo[1]).text("登陆成功!");
 					$(alertInfo).delay(2000).hide(300);
 				}else{
 					$(alertInfo[0]).show(300);
