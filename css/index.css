@@ -5,6 +5,7 @@
 	z-index:999;
 	margin-left:10%;
 	display: none;
+	user-select:none;
 }
 .container{
 	position: relative;
@@ -39,6 +40,7 @@
 	transition: all .5s;
 }
 .login{
+	user-select:none;
 	position: relative;
 	background: rgba(0,180,226,.4);
 	border-radius: 20px;
